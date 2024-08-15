@@ -20,7 +20,7 @@ with col1:
   st.write("Las plantas de interior mejoran tu ánimo")
   resp = st.checkbox('Así es')
   if resp:
-    st.write('Correcto!')
+    st.write('¡Correcto!')
 
 with col2:
   st.subheader("Esta es la segunda columna")
