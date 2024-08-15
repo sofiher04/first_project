@@ -30,7 +30,7 @@ with col2:
   if modo == 'Guzmania mini rosa':
     st.write('Su tamaño es ideal para lucirla en cualquier espacio pequeño de la casa, sobre todo, en esos rincones a los que le falta ese toque alegre.')
   if modo == 'Árbol de jade':
-    st.write('una de las plantas suculentas más conocidas del mundo, con sus hojas carnosas y su forma de pequeño arbolito.')
+    st.write('Una de las plantas suculentas más conocidas del mundo, con sus hojas carnosas y su forma de pequeño arbolito.')
   if modo == 'Aloe vera':
     st.write('Además de ser súper vistoso, sus hojas pueden ser utilizadas con fines terapéuticos y de belleza Será bueno que le dé la luz siempre que sea posible, pero tan solo has de regar cada 15 o 20 días con poquita agua.')
 
