@@ -42,5 +42,5 @@ else:
   st.write('No has presionado nada :(')
 
 with st.sidebar:
-st.subheader('Configura la modalidad')
-mod_radio = st.radio("Escoge la modalidada a usar", ("Visual", "Auditiva", "Háptica"))
+  st.subheader('Configura la modalidad')
+  mod_radio = st.radio("Escoge la modalidada a usar", ("Visual", "Auditiva", "Háptica"))
