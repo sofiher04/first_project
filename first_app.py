@@ -11,3 +11,5 @@ st.image(image, caption = '¡Yo soy todas las plantas!')
 
 texto = st.text_input('Escribe algo', 'Este es mi texto')
 st.write('El texto escrito es', texto)
+
+st.subheader("Ahora usemos 2 columnas")
