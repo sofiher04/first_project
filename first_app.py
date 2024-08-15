@@ -35,8 +35,12 @@ with col2:
     st.write('Además de ser súper vistoso, sus hojas pueden ser utilizadas con fines terapéuticos y de belleza Será bueno que le dé la luz siempre que sea posible, pero tan solo has de regar cada 15 o 20 días con poquita agua.')
 
 st.subheader('Uso de Botones')
-if st.button('Presiona el botón'):
+st.write('¡Presiona la planta!')
+if st.button('🌱'):
   st.write("Gracias por presionar :)")
 else:
   st.write('No has presionado nada :(')
-  
+
+iwth st.sidebar:
+st.subheader('Configura la modalidad')
+mod_radio = st.radio("Escoge la modalidada a usar", ("Visual, "Auditiva", "Háptica"))
